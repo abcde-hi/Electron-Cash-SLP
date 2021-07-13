@@ -196,7 +196,7 @@ export SOURCE_DATE_EPOCH=1530212462
 # If the manifest changed, contrib/build-wine/manifest.xml needs to be updated.
 export PYTHON_VERSION=3.8.7  # Windows, OSX & Linux AppImage use this to determine what to download/build
 export PYTHON_SRC_TARBALL_HASH="ddcc1df16bb5b87aa42ec5d20a5b902f2d088caa269b28e01590f97a798ec50a"  # If you change PYTHON_VERSION above, update this by downloading the tarball manually and doing a sha256sum on it.
-export DEFAULT_GIT_REPO=https://github.com/ActorForth/Electron-Cash-SLP
+export DEFAULT_GIT_REPO=https://github.com/simpleledger/Electron-Cash-SLP
 if [ -z "$GIT_REPO" ] ; then
     # If no override from env is present, use default. Support for overrides
     # for the GIT_REPO has been added to allows contributors to test containers
@@ -210,7 +210,7 @@ if [ "$GIT_REPO" != "$DEFAULT_GIT_REPO" ]; then
     info "Picked up override from env: GIT_REPO=${GIT_REPO}"
 fi
 export GIT_DIR_NAME=`basename $GIT_REPO`
-export PACKAGE="ECash-SLPDB"  # Modify this if you like -- Windows, MacOS & Linux srcdist build scripts read this, while AppImage has it hard-coded
+export PACKAGE="Electron-Cash-SLP"  # Modify this if you like -- Windows, MacOS & Linux srcdist build scripts read this, while AppImage has it hard-coded
 export PYI_SKIP_TAG="${PYI_SKIP_TAG:-0}" # Set this to non-zero to make PyInstaller skip tagging the bootloader
 export DEFAULT_UBUNTU_MIRROR="http://archive.ubuntu.com/ubuntu/"
 export UBUNTU_MIRROR="${UBUNTU_MIRROR:-$DEFAULT_UBUNTU_MIRROR}"
