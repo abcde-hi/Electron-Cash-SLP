@@ -13,10 +13,10 @@ Getting started
 ===============
 
 **Note: If running from source, Python 3.6 or above is required to run Electron Cash.** If your system lacks Python 3.6,
-you have other options, such as the `AppImage / binary releases <https://github.com/ActorForth/ECash-SLPDB/releases/>`_
+you have other options, such as the `AppImage / binary releases <https://github.com/Electron-Cash/Electron-Cash/releases/>`_
 or running from source using `pyenv` (see section `Running from source on old Linux`_ below).
 
-**macOS:** It is recommended that macOS users run `the binary .dmg <https://github.com/ActorForth/ECash-SLPDB/releases/>`_  as that's simpler to use and has everything included.  Otherwise, if you want to run from source, see section `Running from source on macOS`_ below.
+**macOS:** It is recommended that macOS users run `the binary .dmg <https://github.com/Electron-Cash/Electron-Cash/releases/>`_ as that's simpler to use and has everything included. Otherwise, if you want to run from source, see section `Running from source on macOS`_ below.
 
 Electron Cash is a pure python application forked from Electrum. If you want to use the Qt interface, install the Qt dependencies::
 
@@ -53,10 +53,9 @@ If you are on macOS, see the `Running from source on macOS`_ section below.
 
 Check out the code from Github::
 
-    git clone https://github.com/ActorForth/ECash-SLPDB/
-    cd ECash-SLPDB
-    git checkout develop
-
+    git clone https://github.com/Electron-Cash/Electron-Cash
+    cd Electron-Cash
+    
 Run install (this should install dependencies)::
 
     python3 setup.py install
