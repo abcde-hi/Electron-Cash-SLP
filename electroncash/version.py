@@ -1,9 +1,5 @@
 PACKAGE_VERSION = '3.6.6'  # version of the client package, this is used by update_checker.py
-<<<<<<< HEAD
-PRE_RELEASE_TAG = '3.7.1' # title bar tag used for pre-releases, doesn't affect update_checker.py
-=======
 PRE_RELEASE_TAG = '3.6.7-dev4' # title bar tag used for pre-releases, doesn't affect update_checker.py
->>>>>>> parent of f0385b04b (Fix package name and version number for ECash-SLPDB)
 PROTOCOL_VERSION = '1.4'   # protocol version requested
 EXTENSIONS = { 'SLP': "1" }
 
