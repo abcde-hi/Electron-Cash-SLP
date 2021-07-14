@@ -33,11 +33,7 @@ Getting started
 you have other options, such as the `AppImage / binary releases <https://github.com/Electron-Cash/Electron-Cash/releases/>`_
 or running from source using `pyenv` (see section `Running from source on old Linux`_ below).
 
-<<<<<<< HEAD
 **macOS:** It is recommended that macOS users run `the binary .dmg <https://github.com/Electron-Cash/Electron-Cash/releases/>`_ as that's simpler to use and has everything included. Otherwise, if you want to run from source, see section `Running from source on macOS`_ below.
-=======
-**macOS:** It is recommended that macOS users run `the binary .dmg <https://github.com/Electron-Cash/Electron-Cash/releases/>`_  as that's simpler to use and has everything included.  Otherwise, if you want to run from source, see section `Running from source on macOS`_ below.
->>>>>>> parent of 9cb9ed329 (Update README.rst)
 
 Electron Cash is a pure python application forked from Electrum. If you want to use the Qt interface, install the Qt dependencies::
 
@@ -76,11 +72,7 @@ Check out the code from Github::
 
     git clone https://github.com/Electron-Cash/Electron-Cash
     cd Electron-Cash
-<<<<<<< HEAD
     
-=======
-
->>>>>>> parent of 9cb9ed329 (Update README.rst)
 Run install (this should install dependencies)::
 
     python3 setup.py install
