@@ -1,12 +1,28 @@
-ECash SLPDB - Lightweight Bitcoin Cash client
+Electron Cash - Lightweight Bitcoin Cash client
 =====================================
-Contact us at our gitter: <https://gitter.im/ActorForth/community>
 
+::
 
   Licence: MIT Licence
   Author: Jonald Fyookball
   Language: Python
   Homepage: https://electroncash.org/
+
+
+.. image:: https://d322cqt584bo4o.cloudfront.net/electron-cash/localized.svg
+    :target: https://crowdin.com/project/electron-cash
+    :alt: Help translate Electron Cash online
+
+
+.. image:: https://img.shields.io/travis/simpleledger/Electron-Cash-SLP
+    :target: https://travis-ci.org/github/simpleledger/Electron-Cash-SLP
+    :alt: Travis CI
+
+
+.. image:: https://img.shields.io/coveralls/github/simpleledger/Electron-Cash-SLP
+    :target: https://coveralls.io/github/simpleledger/Electron-Cash-SLP
+    :alt: Coveralls code coverage
+
 
 
 Getting started
