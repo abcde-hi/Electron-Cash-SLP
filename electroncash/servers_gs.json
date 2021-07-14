@@ -1,0 +1,5 @@
+{
+    "https://bchd-mainnet.electroncash.de": { "kind": "bchd" },
+    "https://bchd.fountainhead.cash": { "kind": "bchd" },
+    "https://bchd.imaginary.cash/proxy": {"kind": "bchd" }
+}
